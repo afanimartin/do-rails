@@ -2,7 +2,7 @@
 lock "~> 3.17.3"
 
 set :application, "do-rails"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:afanimartin/do-rails.git"
 
 # Default branch is :master
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
